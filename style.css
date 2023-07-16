@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+
+.red {
+    color: #f44336;
+    padding: 35px 0;
+}
+
+.space {
+    background-color: #f44336;
+    margin: 10px 0;
+    border-radius: 10px;
+    width: 60px;
+    height: 10px;
+}
+
+/* Navbar section  */
+nav {
+    background-color: #f44336;
+    height: 100vh;
+    width: 350px;
+    color: white;
+    position: sticky;
+    top: 0;
+    background-attachment: fixed;
+}
+
+nav h1 {
+    font-size: 35px;
+    padding: 60px 10px;
+    text-align: center;
+}
+
+nav a {
+    text-align: center;
+    color: white;
+    padding: 20px 100px;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: black;
+    background-color: white;
+}
+
+/* Showcase Section  */
+.Showcase{
+    padding-top: 50px;
+    padding: 0px 50px;
+}
+.Showcase h1 {
+    font-size: 80px;
+}
+
+.Showcase h2 {
+    font-size: 60px;
+}
+
+.Showcase img {
+    width: 550px;
+    margin: 5px;
+    opacity: 0.8;
+}
+
+.Showcase img:hover {
+    opacity: 1;
+}
+
+/* Services section */
+.Services{
+    padding: 0px 50px;
+}
+.Services h2 {
+    font-size: 60px;
+}
+
+.Services p {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+/* Designers section  */
+.Designers {
+    padding: 0px 50px;
+}
+.Designers h2 {
+    font-size: 60px;
+}
+
+.Designers h3 {
+    font-size: 40px;
+}
+
+.Designers h4 {
+    font-size: 20px;
+    color: #acacac;
+}
+
+.Designers p {
+    font-size: 25px;
+    margin: 15px 0;
+}
+
+.Designers-container-card {
+    display: flex;
+}
+
+.Designers-card {
+    background-color: #e2e2e2;
+    margin: 10px;
+    padding: 10px;
+}
+/* Packages section  */
+.Packages{
+    padding: 0px 50px;
+}
+.Packages-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.Packages h2 {
+    font-size: 60px;
+}
+.Packages h3 {
+    font-size: 30px;
+    font-weight: 100;
+}
+.Packages h4 {
+    font-size: 20px;
+    color: #acacac;
+}
+.Packages h5 {
+    font-size: 40px;
+    font-weight: 300;
+}
+.Packages p {
+    font-size: 25px;
+    margin: 15px 0;
+}
+.Packages-card-box button {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: white;
+    border: none;
+}
+.Packages-card-box2 button {
+    font-size: 25px;
+    padding: 10px 20px;
+    background-color: #f44336;
+    border: none;
+}
+.Packages-card-box button:hover ,.Packages-card-box2 button:hover ,.Contact button:hover{
+   background-color: black;
+   color: white;
+}
+.Packages-card-box{
+    border-bottom: 1px solid #929292;
+    background-color: #dfdfdf;
+    padding: 10px 130px;
+    text-align: center;
+}
+.Packages-card-box:nth-child(1){
+    background-color: #acacac;
+}
+.Packages-card-box2{
+    border-bottom: 1px solid #929292;
+    background-color: #dfdfdf;
+    padding: 10px 130px;
+    text-align: center;
+}
+.Packages-card-box2:nth-child(1){
+    background-color:#f44336;
+}
+/* Contact Section  */
+.Contact{
+    padding: 0px 50px;
+}
+.Contact h2 {
+    font-size: 60px;
+}
+
+.Contact p {
+    font-size: 25px;
+    margin: 15px 0;
+}
+.Contact input,select{
+    width: 100%;
+    font-size: 20px;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+.Contact button{
+    width: 100%;
+    font-size: 30px;
+    margin: 10px 0;
+    padding: 10px 10px;
+}
+/* footer */
+footer{
+    background-color: #dfdfdf;
+    padding: 50px;
+    text-align: right;
+    margin: 0;
+    box-sizing: border-box;
+}
+footer h2{
+    text-decoration: underline;
+}
